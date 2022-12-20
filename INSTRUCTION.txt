@@ -1,0 +1,29 @@
+- There are three levels of user in this app, they are student, staff, and admin.
+- Each level of user have their own main privileges.
+
+Admin : 
+- Only administrator can register in this app and to prevent random people registering themselves as an admin i make an authentication hard-code inside the backend which 
+  you can change as you want later.
+- Default admin register code = MOKLETJAYA --> the code is case sensitive, so turn on your capslock before type this code.
+- You can add both student and staff account from admin account. 
+  -For student's account, the default username and password are their own NISN.
+  -For staff's account, the default username and password are their own username. 
+- You can generate every student's tuition fee payment report.
+- Also, you can do CRUD for almost all data in this app, except student and staff account password.
+
+Staff :
+You can only do :
+- Confirming and unconfirming student's tuition fee payment.
+- Changing your personal information and account password.
+ 
+Student :
+You can only do :
+- Submitting your tuition fee payment slip and waiting for verification from admin or staff.
+
+If it necessary, I will update this app regularly to add more features and make this app better.
+
+Please use this app wisely.
+
+
+
+Regards, Krisna Putra Mariyanto.  
